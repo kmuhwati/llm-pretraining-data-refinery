@@ -1,0 +1,40 @@
+{
+  "crawl": "CC-MAIN-2026-39",
+  "wet_files": 16,
+  "raw_documents": 339259,
+  "raw_text_gb": 2.260993678,
+  "final_documents": 46552,
+  "final_share_of_raw": 0.1372166987463855,
+  "url_blocked": 5188,
+  "non_english": 212236,
+  "exact_duplicates": 5555,
+  "quality_rejected": 68933,
+  "near_duplicates": 790,
+  "near_dup_clusters": 374,
+  "largest_cluster": 49,
+  "contaminated_removed": 5,
+  "contamination_by_benchmark": {
+    "MMLU": 4,
+    "HumanEval": 1
+  },
+  "pii_redactions": {
+    "email": 6913,
+    "phone": 18656,
+    "ip": 489,
+    "card": 399
+  },
+  "docs_with_pii": 11629,
+  "classifier": {
+    "train_docs": 3200,
+    "test_docs": 800,
+    "test_accuracy": 0.97875,
+    "test_roc_auc": 0.9971553788347681,
+    "seconds": 8.1
+  },
+  "hq_documents": 13966,
+  "tokens_all": 62057879,
+  "tokens_hq": 21877944,
+  "words": 46026870,
+  "pipeline_wall_seconds": 361.8,
+  "cc_cld2_agrees_english": 0.9995059288537549
+}

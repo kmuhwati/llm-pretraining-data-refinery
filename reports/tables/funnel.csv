@@ -1,0 +1,8 @@
+step,documents,share_of_raw
+Raw web pages (16 WET files),339259,1.0
+URL blocklist,334071,0.9847078485758668
+English (fastText ≥ 0.65),121835,0.35912090762514776
+Exact dedup,116280,0.34274698681538296
+"Quality filters (C4, Gopher, FineWeb)",47347,0.13956004114850307
+Near dedup (MinHash LSH),46557,0.13723143674891455
+Benchmark decontamination,46552,0.1372166987463855

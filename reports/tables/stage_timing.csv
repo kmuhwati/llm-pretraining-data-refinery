@@ -1,0 +1,8 @@
+stage,seconds,documents,docs_per_second
+Extract + URL + language,80.6,339259,4209.168734491315
+Exact dedup,58.6,121835,2079.0955631399315
+Quality filters,125.1,116280,929.4964028776978
+MinHash signatures,33.0,47347,1434.7575757575758
+LSH clustering,2.6,47347,18210.384615384613
+Decontamination + PII,34.5,46557,1349.4782608695652
+Tokenise + shard,19.3,46552,2412.020725388601
